@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@400;700&family=Raleway&display=swap" rel="stylesheet">    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">    
+    <link rel="stylesheet" href="FontAwesome/css/all.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Shopno</title>
+</head>
+<body>
+    <div id="toTop"><i class="fas fa-chevron-up"></i></div>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-md-12 d-flex menu__content justify-content-between wow slideInDown" data-wow-duration = "2s">
+                    <div class="col-xl-2 logo">
+                        <img src="img/logo.png" alt="">
+                        <button class="burger_menu"><i class="fas fa-bars"></i></button>
+                    </div>
+                    <nav>                      
+                    <!-- <div id="top_menu">   -->
+                        <ul class="col-xl-10 col-md-10 menu">
+                            <li class="item" id="about"><a href="#">ABOUT US</a></li>
+                            <li class="item" id="works"><a href="#">FEATURED WORKS</a></li>
+                            <li class="item" id="service"><a href="#">OUR SERVICES</a></li>
+                            <li class="item" id="team"><a href="#">SMALL TEAM</a></li>
+                            <li class="item" id="contact"><a href="#">CONTACT US</a></li>
+                        </ul>
+                    </nav>
+                    <!-- </div> -->
+                </div>
+            </div>
+            <div class="row" id="header__content">
+                <div class="col-lg-12">
+                    <h1 class="col-lg-10 header__title wow slideInLeft" data-wow-duration = "2s">
+                        SAY HELLO TO SHOPNO! <br>AGENCY CORPORATE SHOPNO THEME
+                    </h1>
+                </div>
+              
+                <div class="col-sm-12">
+                    <div class=" col-sm-4 contact_us_btn wow slideInRight" id="button" data-wow-duration = "2s">
+                        CONTACT US
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="col-lg-10 header__title">
+                        ABOUT US
+                    </h1>
+                </div>
+                <div class="col-sm-12">
+                    <div class=" col-sm-6 contact_us_btn" id="title">
+                        Lorem ipsum dolor sit amet event landing template
+                    </div>
+                </div>
+                    <div class="col-md-12 d-flex about_mobile">
+
+                        <div class="col-md-6 about__right">
+                            <div class="item_img" data-wow-duration = "2s">
+                                <img src="img/Image.png"  alt="" class="img-fluid about__img" onclick="about_slide(1)">
+                            </div>
+                            <div class="item_img">
+                                <img src="img/image2.jpg" alt="" class="img-fluid about__img" onclick="about_slide(2)">
+                            </div>
+                            <div class="item_img">
+                                <img src="img/image3.jpg" alt="" class="img-fluid about__img" onclick="about_slide(3)">
+                            </div>
+                            <div class="item_img">
+                                <img src="img/image4.jpg" alt="" class="img-fluid about__img" onclick="about_slide(4)">
+                            </div>
+                            <div class="bots">
+                                <div class="bots__item" onclick="bot(1)"></div>
+                                <div class="bots__item" onclick="bot(2)"></div>
+                                <div class="bots__item" onclick="bot(3)"></div>
+                                <div class="bots__item" onclick="bot(4)"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 text_none" >                         
+                                <span><h4 class="about__title">WE ACTUALLY DO AMAZING WORKS</h4>                           
+                                <p class="about__text">A visual approach is an approach to a runway at an airport 
+                                conducted under instrument flight rules. The pilot must at all times have either the airport or the preceding aircraft in approach correct sight. conducted under instrument flight rules. The pilot must at all times.<br><br>
+                           
+                                Preceding aircraft in approach correct sight. conducted under instrument flight rules.
+                                </p></span>
+                          
+                                <h4 class="about__title">WHY WE ARE THE GREAT</h4>
+                                <p class="about__text">A visual approach is an approach to a runway at an airport 
+                                    conducted under instrument flight rules.
+                                    The preceding aircraft in approach correct sight.
+                                </p>
+                                <div class="slide_btn slide_btn_2">
+                                    <i class="fas fa-arrow-left" onclick="btn_left()"></i>
+                                    <i class="fas fa-arrow-right" onclick="btn_right()"></i>                              
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <div class="featured__works">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <h1 class="col-lg-10 header__title">
+                            FEATURED WORKS
+                        </h1>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class=" col-sm-8 contact_us_btn" id="title">
+                            Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet event landing template
+                        </div>
+                    </div>
+                    <div class="row col-md-12 col-sm-10 col-12 center_img featured__images">
+                        <div class="col-md-4 col-sm-5 col-6"><img src="img/1.png" class="img-fluid sm_img" alt=""></div>
+                        <div class="col-md-4 col-sm-5 col-6"><img src="img/2.png" class="img-fluid sm_img" alt=""></div>
+                        <div class="col-md-4 col-sm-5 col-6"><img src="img/3.png" class="img-fluid sm_img" alt=""></div>                  
+                        <div class="col-md-4 col-sm-5 col-6"><img src="img/4.png" class="img-fluid sm_img" alt=""></div>
+                        <div class="col-md-4 col-sm-5 col-6"><img src="img/5.png" class="img-fluid sm_img" alt=""></div>
+                        <div class="col-md-4 col-sm-5 col-6"><img src="img/6.png" class="img-fluid sm_img" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="our__services">
+            <div class="container">
+                <div class="row service_mobile">
+                    <div class="col-lg-12">
+                        <h1 class="col-lg-10 header__title">
+                            OUR SERVICES
+                        </h1>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class=" col-sm-8 contact_us_btn" id="title">
+                            Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet event landing template
+                        </div>
+                    </div>
+                </div>
+            <div class="row d-flex">
+                <div class="col-md-7">
+                    <div class="service__block1 xx first_class " data-wow-duration="2s">
+                        <h4 class="about__title services_title" id="title1">DESIGNING IS THE COOL LOVE FOR</h4>
+                        <p class="about__text services_text" id="text1">Our most popular service is our Virtual Receptionist. We know that sometimes
+                        </p>
+                        <p class="learn__btn" id="btn1">Learn more...</p>
+                        <p class="close__btn1">Close</p>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="service__block2 xx second_class" data-wow-duration="2s">
+                        <h4 class="about__title services_title" id="title2">COOL PSD DESIGN</h4>
+                        <p class="about__text services_text" id="text2">Our most popular service is our we know that sometimes it’s something and you middle most.. 
+                        </p>
+                        <p class="learn__btn" id="btn2">Learn more...</p>
+                        <p class="close__btn2">Close</p>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="service__block3 xx third_class" data-wow-duration="2s">
+                        <h4 class="about__title services_title" id="title3">I AM WEB DEVELOPER</h4>
+                        <p class="about__text services_text" id="text3">Our most popular service is our Virtual Receptionist. We know that sometimes
+                        </p>
+                        <p class="learn__btn btn3">Learn more...</p>
+                        <p class="close__btn3">Close</p>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="service__block4 xx fourth_class" data-wow-duration="2s">
+                        <h4 class="about__title services_title" id="title4">I LOVE CODING</h4>
+                        <p class="about__text services_text" id="text4">Our most popular service is our we know that sometimes it’s something and you middle most.. 
+                        </p>
+                        <p class="learn__btn btn4">Learn more...</p>
+                         <p class="close__btn4">Close</p>
+                    </div>
+                </div>
+        
+                <div class="col-md-7">
+                    <div class="service__block5 xx fifth_class" data-wow-duration="2s">
+                        <h4 class="about__title services_title" id="title5">CODING IS VERY COOL</h4>
+                        <p class="about__text services_text" id="text5">Our most popular service is our Virtual Receptionist. We know that sometimes
+                        </p>
+                        <p class="learn__btn btn5">Learn more...</p>
+                        <p class="close__btn5">Close</p>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="service__block6 xx sixth_class" data-wow-duration="2s">
+                        <h4 class="about__title services_title" id="title6">WE MAKE AWESOME JOBS</h4>
+                        <p class="about__text services_text" id="text6">Our most popular service is our we know that sometimes it’s something and you middle most.. 
+                        </p>
+                        <p class="learn__btn btn6">Learn more...</p>
+                        <p class="close__btn6">Close</p>
+                    </div>
+                </div>          
+            </div>
+        </div>
+    </div>
+
+    <div class="small__team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="col-lg-10 header__title">
+                        SMALL TEAM
+                    </h1>
+                </div>
+                <div class="col-sm-12">
+                    <div class=" col-sm-8 contact_us_btn" id="title">
+                        Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet event landing template
+                    </div>
+                </div>
+            
+            <div class="col-xl-12 col_md-12  featured__images">
+                <div class="row">
+                    <div class="col-xl-4 col-md-6 team_position">
+                        <img src="img/team1.png" class="img-fluid team_img" alt="">
+                            <div class="team_img_txt">
+                                <h4 class="what_they_say_title">AL RAYHAN /  <span><i>UI/UX DESIGNER</i></span></h4>
+                                <p class="what_they_say_text">
+                                    Lorem Ipsum is simply dummy text of the printing and you standard dummy know that text ever since the 1500s, when an unknown printer.
+                                </p>
+                                <div class="stars">
+                                    <img src="img/star.png" alt="">
+                                    <img src="img/star.png" alt="">
+                                    <img src="img/star.png" alt="">
+                                    <img src="img/star.png" alt="">
+                                    <img src="img/star.png" alt="">
+                                </div>
+                            <div class="mini_block"></div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 team_position">                      
+                        <img src="img/team2.png" class="img-fluid team_img" alt="">
+                        <div class="team_img_txt">
+                            <h4 class="what_they_say_title">Mithun Daser /  <span><i>Front-End dev</i></span></h4>
+                            <p class="what_they_say_text">
+                                Lorem Ipsum is simply dummy text of the printing and you standard dummy know that text ever since the 1500s, when an unknown printer.
+                            </p>
+                            <div class="stars">
+                                <img src="img/star.png" alt="">
+                                <img src="img/star.png" alt="">
+                                <img src="img/star.png" alt="">
+                                <img src="img/star.png" alt="">
+                                <img src="img/star.png" alt="">
+                            </div>
+                            <div class="mini_block"></div>
+                        </div>                        
+                    </div>
+
+                    <div class="col-xl-4 col-md-6 team_position">                     
+                        <img src="img/team3.png" class="img-fluid team_img" alt="">
+                            <div class="team_img_txt">
+                                <h4 class="what_they_say_title">Berkut Fasak /  <span><i>BACK-END  dev</i></span></h4>
+                                <p class="what_they_say_text">
+                                    Lorem Ipsum is simply dummy text of the printing and you standard dummy know that text ever since the 1500s, when an unknown printer.
+                                </p>
+                                <div class="stars">
+                                    <img src="img/star.png" alt="">
+                                    <img src="img/star.png" alt="">
+                                    <img src="img/star.png" alt="">
+                                    <img src="img/star.png" alt="">
+                                    <img src="img/star.png" alt="">
+                                </div>
+                                <div class="mini_block"></div>
+                            </div>
+                        </div>
+                    
+               
+                    <div class="col-xl-4 col-md-6 team_position">                     
+                        <img src="img/team4.png" class="img-fluid team_img" alt="">
+                            <div class="team_img_txt wow fadeIn" data-wow-duration="1s">
+                                <h4 class="what_they_say_title">MARIA ROGAI /  <span><i>IT MANAGER</i></span></h4>
+                                <p class="what_they_say_text">
+                                    Lorem Ipsum is simply dummy text of the printing and you standard dummy know that text ever since the 1500s, when an unknown printer.
+                                </p>
+                                <div class="stars">
+                                    <img src="img/star.png" alt="">
+                                    <img src="img/star.png" alt="">
+                                    <img src="img/star.png" alt="">
+                                    <img src="img/star.png" alt="">
+                                    <img src="img/star.png" alt="">
+                                </div>
+                            <div class="mini_block"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-md-6 team_position">                      
+                        <img src="img/team5.png" class="img-fluid team_img" alt="">
+                            <div class="team_img_txt">
+                                <h4 class="what_they_say_title">SAMAT BEKS /  <span><i>FULL-STACK dev</i></span></h4>
+                                <p class="what_they_say_text">
+                                    Lorem Ipsum is simply dummy text of the printing and you standard dummy know that text ever since the 1500s, when an unknown printer.
+                                </p>
+                                <div class="stars">
+                                    <img src="img/star.png" alt="">
+                                    <img src="img/star.png" alt="">
+                                    <img src="img/star.png" alt="">
+                                    <img src="img/star.png" alt="">
+                                    <img src="img/star.png" alt="">
+                                </div>
+                            <div class="mini_block"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-md-6 team_position">                     
+                        <img src="img/team1.png" class="img-fluid team_img" alt="">
+                            <div class="team_img_txt">
+                                <h4 class="what_they_say_title">AL RAYHAN /  <span><i>UI/UX DESIGNER</i></span></h4>
+                                <p class="what_they_say_text">
+                                    Lorem Ipsum is simply dummy text of the printing and you standard dummy know that text ever since the 1500s, when an unknown printer.
+                                </p>
+                                    <div class="stars">
+                                        <img src="img/star.png" alt="">
+                                        <img src="img/star.png" alt="">
+                                        <img src="img/star.png" alt="">
+                                        <img src="img/star.png" alt="">
+                                        <img src="img/star.png" alt="">
+                                    </div>
+                                <div class="mini_block"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <div class="what_they_say">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="col-lg-10 header__title">
+                        WHAT THEY SAY
+                    </h1>
+                </div>
+                <div class="col-sm-12">
+                    <div class=" col-sm-8 contact_us_btn" id="title">
+                        Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet event landing template
+                    </div>
+                </div>
+
+            <div class="col-xl-12 col-md-12 d-flex">
+                <div class="col-xl-5 col-md-5 say_padding">
+
+                    <!-- 1 -->
+                    <div class="what_they_say_block back_color" data-wow-duration = "4s">
+                        <img src="img/team1.png" class="img_fluid hhh" alt="" onclick="what_say(1)">
+
+                    <!-- 2 -->                    
+                        <img src="img/team2.png" class="img_fluid hhh" alt="" onclick="what_say(2)">
+                    
+                    <!-- 3 -->
+                        <img src="img/team3.png" class="img_fluid hhh" alt="" onclick="what_say(3)">                    
+
+                    <!-- 4 -->
+                        <img src="img/team4.png" class="img_fluid hhh" id="ii" alt="" onclick="what_say(4)">
+
+                        <div class="bots">
+                            <div class="bots__item gg" onclick="bot(1)"></div>
+                            <div class="bots__item gg" onclick="bot(2)"></div>
+                            <div class="bots__item gg" onclick="bot(3)"></div>
+                            <div class="bots__item gg" onclick="bot(4)"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-md-7 say_padding">
+
+                    <!-- 1 -->
+                    <div class="what_they_say_block oo">
+                        <h4 class="what_they_say_title">AL RAYHAN /  <span><i>UI/UX DESIGNER</i></span></h4>
+                        <p class="what_they_say_text">
+                            Lorem Ipsum is simply dummy text of the printing and you standard dummy know that text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        </p>
+                        <div class="stars">
+                            <img src="img/star.png" alt="">
+                            <img src="img/star.png" alt="">
+                            <img src="img/star.png" alt="">
+                            <img src="img/star.png" alt="">
+                            <img src="img/star.png" alt="">
+                        </div>
+                    </div>
+
+                    <!-- 2 -->
+                    <div class="what_they_say_block oo">
+                        <h4 class="what_they_say_title">BEYZA KHAN /  <span><i>IT-MANAGER</i></span></h4>
+                        <p class="what_they_say_text">Dolor sit amet consectetur adipisicing elit. Ipsa, maxime? Nostrum mollitia commodi minima atque totam odio ipsam fuga! Repellat accusamus a labore culpa perspiciatis eius!
+                        </p>
+                        <div class="stars">
+                            <img src="img/star.png" alt="">
+                            <img src="img/star.png" alt="">
+                            <img src="img/star.png" alt="">
+                            <img src="img/star.png" alt="">
+                            <img src="img/star.png" alt="">
+                        </div>
+                    </div>
+
+                    <!-- 3 -->
+                    <div class="what_they_say_block oo">
+                        <h4 class="what_they_say_title">FOZDE KEMAL /  <span><i>BACK-END DEVELOPER</i></span></h4>
+                        <p class="what_they_say_text">Ipsum dolor sit amet consectetur adipisicing elit. Totam nam veniam quo saepe qui animi. Minus, ipsum facilis inventore tempora aliquam, sed esse tempore illum deleniti, alias vero.
+                        </p>
+                        <div class="stars">
+                            <img src="img/star.png" alt="">
+                            <img src="img/star.png" alt="">
+                            <img src="img/star.png" alt="">
+                            <img src="img/star.png" alt="">
+                            <img src="img/star.png" alt="">
+                        </div>
+                    </div>
+
+                    <!-- 4 -->
+                    <div class="what_they_say_block oo">
+                        <h4 class="what_they_say_title">BURAK OZAN /  <span><i>FRONT-END DEVELOPER</i></span></h4>
+                        <p class="what_they_say_text">Sit amet, consectetur adipisicing elit. Recusandae, dolorum dolore? Ipsum cum aliquid voluptate itaque repellendus unde. Cum nihil hic laudantium dignissimos velit tempora quidem.
+                        </p>
+                        <div class="stars">
+                            <img src="img/star.png" alt="">
+                            <img src="img/star.png" alt="">
+                            <img src="img/star.png" alt="">
+                            <img src="img/star.png" alt="">
+                            <img src="img/star.png" alt="">
+                        </div>
+                    </div>
+
+                        <div class="slide_btn">
+                            <i class="fas fa-arrow-left" onclick="btn_left2()"></i>
+                            <i class="fas fa-arrow-right" onclick="btn_right2()"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id="contact__us">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="col-lg-10 header__title">
+                        CONTACT US
+                    </h1>
+                </div>
+                <div class="col-sm-12">
+                    <div class=" col-sm-8 contact_us_btn" id="title">
+                        Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet event landing template
+                    </div>
+                </div>
+
+                <div class="col-xl-12 col-md-12 d-flex">
+                    <div class="col-xl-7 col-md-7">
+                        <form class="form" >
+                            <input type="text" class="col input" placeholder="Name">
+                            <input type="text" class="col input" placeholder="Subject">
+                            <input type="text" class="col input" placeholder="E-mail">
+                            <input type="text" class="col input" placeholder="Message">
+                            <p class="error"></p>
+                            <button id="send">SEND MESSAGE</button>                          
+                            <p class="success"></p>
+                        </form>
+                    </div>
+                    <div class="col-xl-5 col-md-5">
+                        <form>
+                            <p class="address">COUNTRY:   The Kyrgyz Republic</p>
+                            <p class="address">ADDRESS:   Bishkek city, Thiolkovskiy st. 71/1</p><br>
+                            <p class="address">PHONE:   +996222202411</p>
+                            <p class="address">E-MAIL:   turgunbaaev@gmail.com</p>
+                            <img src="img/map.png" class="img-fluid" id="img_map" alt="">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col footer_col">
+                        <p class="footer_text">FOLLOW US</p>
+                        <div class="icons">
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-vk"></i>
+                        </div>
+                            <p class="footer_text">Copyright Masum Parvej, All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+<script src="js/wow.min.js"></script> 
+    <script>
+        new WOW().init();
+    </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
