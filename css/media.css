@@ -123,7 +123,7 @@
         padding: 4px 6px;
     }
     .header::before {
-        height: 57%;
+        height: 100%;
     }
     #header__content {
         padding: 50px 0;
