@@ -115,6 +115,7 @@
  @media screen and (max-width: 480px) {
     .header__title {
         font-size: 27px;
+        padding-top: 100px;
     }
     .contact_us_btn {
         width: 200px;
