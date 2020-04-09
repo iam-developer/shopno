@@ -346,7 +346,7 @@ check_btn.onclick = function (e) {
             success.classList.add('wow', 'bounceIn');
             new WOW().init();
             success.style.border = "1px solid #fff";
-            success.innerText = "Your message has been sent successfully!";
+            success.innerText = "Success!We got your message!";
             error.style.opacity = "0";
             success.style.opacity = "1";
             
