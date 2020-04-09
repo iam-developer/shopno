@@ -126,7 +126,7 @@
         padding: 4px 6px;
     }
     .header::before {
-        height: 87%;
+        height: 80%;
     }
     #header__content {
         padding: 50px 0;
@@ -166,5 +166,11 @@
         font-size: 14px;
         padding: 3px 5px;
         width: 220px;
+    }
+   .ll {
+        flex-direction: column;
+    }
+    #form_input {
+        margin-bottom: 20px;
     }
  }
